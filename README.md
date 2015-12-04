@@ -1,5 +1,6 @@
 # JobScrapper
-##Cansado de buscar trabajo mirando anuncios tediosos horas y horas,olvidate
+####Cansado de buscar trabajo mirando anuncios tediosos horas y horas
+######olvidate
 + Configura tus webs
 + Decide que necesitas saber de las ofertas
 + Establece tus filtros
