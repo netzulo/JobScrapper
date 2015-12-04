@@ -1,6 +1,6 @@
 # JobScrapper
 ##Cansado de buscar trabajo mirando anuncios tediosos horas y horas,olvidate
--configura tus webs
--decide que necesitas saber de las ofertas
--establece tus filtros
--navega decenas de paginas en segundos
+..1. Configura tus webs
+..2. Decide que necesitas saber de las ofertas
+..3. Establece tus filtros
+..4. Navega decenas de paginas en segundos
