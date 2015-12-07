@@ -3,6 +3,7 @@ package ntz.web.milanuncios;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
@@ -62,4 +63,14 @@ public class WebNavigation extends Thread{
 	public void close() {
 		this.webDriverHidden.close();
 	}
+	
+	// Pendiente terminar el metodo.
+	public void telefonos() {
+		WebElement cuadroListAnunc = this.webDriverHidden.findElementById("cuerpo");
+		List<WebElement> lista = cuadroListAnunc.findElements(By.className("x1"));
+		for(WebElement element:lista){
+			element.click();
+		}	
+	}
+	
 }
