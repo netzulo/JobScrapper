@@ -41,6 +41,7 @@ public class MainUI extends Shell implements Runnable {
 	private String nomEvento = "";//permite condicionar el flujo del metodo run()
 	
 	private static final String[] URLS = {
+			"http://www.milanuncios.com/informaticos-en-madrid/?demanda=n",
 			"http://www.milanuncios.com/informaticos-en-madrid/?demanda=n&pagina=2",
 			"http://www.milanuncios.com/informaticos-en-madrid/?demanda=n&pagina=3",
 			"http://www.milanuncios.com/informaticos-en-madrid/?demanda=n&pagina=4",
