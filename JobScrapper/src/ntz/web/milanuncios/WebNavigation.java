@@ -8,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
+import ntz.web.Resultado;
+
 public class WebNavigation extends Thread{
 	private String url;
 	public HtmlUnitDriver webDriverHidden;
@@ -67,7 +69,9 @@ public class WebNavigation extends Thread{
 	// Pendiente terminar el metodo.
 	public void telefonos() {
 		WebElement cuadroListAnunc = this.webDriverHidden.findElementById("cuerpo");
+		
 		List<WebElement> lista = cuadroListAnunc.findElements(By.className("x1"));
+		
 		for(WebElement element:lista){
 			element.click();
 		}	

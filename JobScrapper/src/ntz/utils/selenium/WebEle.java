@@ -1,4 +1,4 @@
-package ntz.web;
+package ntz.utils.selenium;
 
 import java.util.List;
 

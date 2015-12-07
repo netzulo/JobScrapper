@@ -56,5 +56,7 @@
 	<classpathentry kind="lib" path="libs/seleniumlibs/xalan-2.7.2.jar"/>
 	<classpathentry kind="lib" path="libs/seleniumlibs/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="libs/seleniumlibs/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="libs/nmap4jlibs/org.nmap4j-1.1.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="libs/nmap4jlibs/org.nmap4j-1.1.0-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

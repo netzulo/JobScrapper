@@ -1,4 +1,4 @@
-package ntz.web.milanuncios;
+package ntz.web;
 
 public class Resultado implements IResultado {
 
